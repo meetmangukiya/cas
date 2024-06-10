@@ -1,3 +1,3 @@
 contract NoopTest {
-    function testNoop() external { }
+    function testNoop() external {}
 }
