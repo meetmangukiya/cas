@@ -25,9 +25,9 @@ jobs:
       - name: version
         run: forge --version
 
-      # - name: fmt
-      #   run: |
-      #     forge fmt --chck
+      - name: fmt
+        run: |
+          forge fmt --chck
 
       - name: Run Forge build
         run: |
